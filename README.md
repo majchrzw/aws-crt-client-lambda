@@ -10,5 +10,5 @@ It is worth mentioning that in both cases test clients are based on url-connecti
 
 To build see both example run command:
 ```shell
-./gradlew quarkusIntTest -Dquarkus.package.jar.enabled=false  -Dquarkus.native.enabled=true
+./gradlew quarkusIntTest --stacktrace -Dquarkus.package.jar.enabled=false  -Dquarkus.native.enabled=true
 ```
